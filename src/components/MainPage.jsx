@@ -4,8 +4,12 @@ import TechStack from './TechStack'
 export default function MainPage() {
   return (
     <div className='flex flex-col mx-16 sm:mx-24 md:mx-32
-        gap-10 pt-28'>
-        <div className='text-7xl sm:text-8xl md:text-9xl'>
+        gap-10 pt-24'>
+        <div className='text-7xl sm:text-8xl md:text-9xl
+            font-bold text-transparent w-max
+            bg-clip-text bg-gradient-to-r
+            from-slate-900 via-cyan-950 
+            to-slate-700'>
             Hello
         </div>
         <div className='text-2xl sm:text-3xl md:text-4xl'>

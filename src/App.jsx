@@ -8,7 +8,8 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='bg-gradient-to-br from-blue-200 via-white to-slate-500
+    <div className='bg-gradient-to-br 
+      from-cyan-100 via-white to-violet-200
       min-h-screen w-full'>
       <BrowserRouter>
         <Header />
