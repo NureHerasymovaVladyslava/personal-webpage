@@ -15,12 +15,14 @@ export default function Projects() {
           to-slate-700 playfair-display'>
           Projects
         </div>
-        <div className='text-2xl sm:text-3xl md:text-4xl mt-5'>
-          2023-2024
+        <div className='text-lg sm:text-xl md:text-2xl mt-5'>
+          Aside from my personal webpage that you are currently browsing 
+          and that I developed with the use of ReactJS and Tailwind CSS, 
+          in the past years I worked on several other projects.
         </div>
       </DelayedDisplayComponent>
       <DelayedDisplayComponent>
-        <div className='flex gap-x-6 gap-y-2 mt-5 flex-wrap
+        <div className='flex gap-x-6 gap-y-2 mt-10 flex-wrap
           sm:gap-x-8 md:gap-x-12 text-lg sm:text-xl md:text-2xl kode-mono'>
           {PROJECTS.map((project, index) => 
             <a href={`#${index}`} key={index}
@@ -32,7 +34,7 @@ export default function Projects() {
           )}
         </div>
       </DelayedDisplayComponent>
-      <div className='flex flex-col gap-20 mt-10'>
+      <div className='flex flex-col gap-20 mt-20'>
         {PROJECTS.map((project, index) =>
         <div>
         <DelayedDisplayComponent key={index}>
