@@ -1,6 +1,6 @@
 import React from 'react'
 import DelayedDisplayComponent from './DelayedDisplayComponent'
-import {TECHNOLOGIES} from '../utils/techstack'
+import {TECHNOLOGIES} from '../utils/data'
 
 export default function MainPage() {
   return (
@@ -30,9 +30,9 @@ export default function MainPage() {
             Tech Stack
         </div>
         </DelayedDisplayComponent>
-        <div className='grid xl:grid-cols-2 xl:gap-x-40 gap-20 my-12'>
-            {TECHNOLOGIES.map(({section_name, items}) =>
-            <DelayedDisplayComponent>
+        <div className='grid xl:grid-cols-2 xl:gap-x-40 gap-20 mt-12'>
+            {TECHNOLOGIES.map(({section_name, items}, index) =>
+            <DelayedDisplayComponent key={index}>
                 <div className='text-3xl sm:text-4xl md:text-5xl 
                     font-semibold text-center mb-10'>
                 {section_name}

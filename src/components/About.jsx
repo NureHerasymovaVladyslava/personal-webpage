@@ -4,7 +4,7 @@ import DelayedDisplayComponent from './DelayedDisplayComponent'
 export default function About() {
   return (
     <div className='flex flex-col items-center
-      px-10 sm:px-16 lg:px-28 gap-10 py-16'>
+      px-10 sm:px-16 lg:px-28 gap-10 mt-16'>
         <DelayedDisplayComponent>
         <div className='flex flex-col gap-3'>
           <div className='flex justify-between items-center
@@ -20,8 +20,7 @@ export default function About() {
               </div>
               <div className='text-xl
                 sm:text-2xl md:text-3xl'>
-                As you already probably know, 
-                my name is Vladyslava Herasymova, 
+                My name is Vladyslava Herasymova, 
                 and I am a Software Engineer.
               </div>
               <div className='hidden xl:block text-2xl'>
@@ -81,7 +80,7 @@ export default function About() {
           </div>
           <div className='text-lg sm:text-xl md:text-2xl'>
             I currently reside in Kharkiv, Ukraine, though I am 
-            open for relocation.
+            open to relocation.
           </div>
         </div>
         </DelayedDisplayComponent>

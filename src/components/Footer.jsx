@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='flex justify-between px-6 sm:px-10 md:px-16 pb-5 gap-5'>
+    <div className='flex justify-between px-6 sm:px-10 md:px-16 pb-5 gap-5 mt-16'>
         <div className='flex flex-col gap-3'>
             <div className='text-2xl font-semibold'>
                 Contact me:
@@ -34,7 +34,8 @@ export default function Footer() {
                     <i class="fa-brands fa-linkedin"></i>
                 </div>
                 <div className='text-sm sm:text-base md:text-lg'>
-                    <a href='https://www.linkedin.com/in/vladyslava-herasymova-7bb75328b/'>
+                    <a href='https://www.linkedin.com/in/vladyslava-herasymova-7bb75328b/'
+                        target="_blank" rel="noopener noreferrer">
                         LinkedIn
                     </a>
                 </div>
