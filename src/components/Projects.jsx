@@ -12,7 +12,7 @@ export default function Projects() {
           bg-clip-text bg-gradient-to-r leading-normal
           sm:leading-relaxed md:leading-loose
           from-slate-900 via-cyan-950 
-          to-slate-700'>
+          to-slate-700 playfair-display'>
           Projects
         </div>
         <div className='text-2xl sm:text-3xl md:text-4xl mt-5'>
@@ -21,7 +21,7 @@ export default function Projects() {
       </DelayedDisplayComponent>
       <DelayedDisplayComponent>
         <div className='flex gap-x-6 gap-y-2 mt-5 flex-wrap
-          sm:gap-x-8 md:gap-x-12 text-lg sm:text-xl md:text-2xl'>
+          sm:gap-x-8 md:gap-x-12 text-lg sm:text-xl md:text-2xl kode-mono'>
           {PROJECTS.map((project, index) => 
             <a href={`#${index}`} key={index}
             className='relative hover:text-slate-600 
@@ -38,12 +38,12 @@ export default function Projects() {
         <DelayedDisplayComponent key={index}>
           <div className='-mt-20 absolute' id={index}></div>
 
-          <div className='text-2xl sm:text-3xl 
+          <div className='kode-mono text-2xl sm:text-3xl 
             md:text-4xl font-semibold'>
             {project.name}
           </div>
           <div className='text-base sm:text-lg 
-            md:text-xl font-light mt-3'>
+            md:text-xl font-light mt-3 kode-mono'>
             {project.timeframe}
           </div>
         </DelayedDisplayComponent>
@@ -58,15 +58,15 @@ export default function Projects() {
               <div className={'flex flex-col flex-1 gap-5 justify-evenly ' + 
                 (index % 2 === 1 && 'xl:text-end')}>
                 <div className='flex flex-col gap-2'>
-                  <div className='text-xl sm:text-2xl font-semibold'>
+                  <div className='text-2xl sm:text-3xl font-bold'>
                     My role
                   </div>
-                  <div className=''>
+                  <div className='sm:text-lg'>
                     {project.role}
                   </div>
                 </div>
                 <div className='flex flex-col gap-2'>
-                  <div className='text-xl sm:text-2xl font-semibold'>
+                  <div className='text-2xl sm:text-3xl font-bold'>
                     Project type
                   </div>
                   <div className=''>
@@ -74,7 +74,7 @@ export default function Projects() {
                   </div>
                 </div>
                 <div className='flex flex-col gap-2'>
-                  <div className='text-xl sm:text-2xl font-semibold'>
+                  <div className='text-2xl sm:text-3xl font-bold'>
                     Project status
                   </div>
                   <div className=''>
@@ -90,7 +90,7 @@ export default function Projects() {
         <div className='flex flex-col flex-1 gap-10 mt-5'>
         <DelayedDisplayComponent>
             <div className='flex flex-col gap-2'>
-              <div className='text-xl sm:text-2xl font-semibold'>
+              <div className='text-2xl sm:text-3xl font-bold'>
                 About
               </div>
               <div className=''>
@@ -100,7 +100,7 @@ export default function Projects() {
           </DelayedDisplayComponent>
           <DelayedDisplayComponent>
             <div className='flex flex-col gap-2'>
-              <div className='text-xl sm:text-2xl font-semibold'>
+              <div className='text-2xl sm:text-3xl font-bold'>
                 Comment
               </div>
               <div className=''>
@@ -110,15 +110,15 @@ export default function Projects() {
           </DelayedDisplayComponent>
           <DelayedDisplayComponent>
             <div className='flex flex-col gap-4'>
-              <div className='text-xl sm:text-2xl font-semibold'>
+              <div className='text-2xl sm:text-3xl font-bold'>
                 Features
               </div>
-              <div className=''>
+              <div>
                 {(project.features.length > 1 ? 
                 <div className='flex flex-col justify-center gap-4'>
                   {project.features.map((category, index) =>
                   <div className='flex flex-col gap-1' key={index}>
-                    <div className='text-lg sm:text-xl font-semibold'>
+                    <div className='text-lg sm:text-xl font-bold'>
                       {category.part_name}:
                     </div>
                     <ul className='list-disc ml-8'>
@@ -140,7 +140,7 @@ export default function Projects() {
           </DelayedDisplayComponent>
           <DelayedDisplayComponent>
             <div className='flex flex-col gap-4'>
-              <div className='text-xl sm:text-2xl font-semibold'>
+              <div className='text-2xl sm:text-3xl font-bold'>
                 Technologies
               </div>
               <div className=''>
@@ -148,15 +148,15 @@ export default function Projects() {
                   {project.technologies.map((category, index) =>
                   <div className='flex flex-col gap-1' key={index}>
                     {project.technologies.length > 1 && 
-                    <div className='text-lg sm:text-xl font-semibold'>
+                    <div className='text-lg sm:text-xl font-bold'>
                       {category.part_name}
                     </div>}
-                    <div className='flex flex-col gap-1' key={index}>
-                      <div className='text-lg sm:text-xl'>
-                        Main: <span>{category.main.join(', ')}</span>
+                    <div className='flex flex-col gap-1 text-lg sm:text-xl font-semibold' key={index}>
+                      <div>
+                        Main: <span className='text-base sm:text-lg font-normal'>{category.main.join(', ')}</span>
                       </div>
-                      <div className='text-lg sm:text-xl'>
-                        Additional: <span>{category.aditional.join(', ')}</span>
+                      <div>
+                        Additional: <span className='text-base sm:text-lg font-normal'>{category.aditional.join(', ')}</span>
                       </div>
                     </div>
                   </div>)}

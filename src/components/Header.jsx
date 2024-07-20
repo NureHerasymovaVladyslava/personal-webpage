@@ -12,7 +12,7 @@ export default function Header() {
                 md:hover:text-3xl' href='/'>
             <i class="fa-solid fa-code"></i>
         </a>
-        <div className='flex gap-6 font-semibold'>
+        <div className='flex gap-6 font-semibold kode-mono'>
             <a className={`relative hover:text-slate-600 
                 transition-all ease-in-out before:left-[50%] 
                 after:right-[50%] nav-links` + 

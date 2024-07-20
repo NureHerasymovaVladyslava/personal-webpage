@@ -10,12 +10,12 @@ export default function About() {
           <div className='flex justify-between items-center
             w-full gap-10'>
             <div className='flex flex-col gap-5'>
-              <div className='text-6xl
+              <div className='font-semibold text-6xl
                 sm:text-7xl md:text-8xl
                 text-transparent w-min
                 bg-clip-text bg-gradient-to-r
                 from-slate-900 via-cyan-900 
-                to-slate-700'>
+                to-slate-700 playfair-display'>
                   Hello there!
               </div>
               <div className='text-xl

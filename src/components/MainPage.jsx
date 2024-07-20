@@ -11,7 +11,7 @@ export default function MainPage() {
             font-bold text-transparent w-max
             bg-clip-text bg-gradient-to-r
             from-slate-900 via-cyan-950 
-            to-slate-700'>
+            to-slate-700 playfair-display'>
             Hello
             </div>
             <div className='text-2xl sm:text-3xl md:text-4xl'>
@@ -25,29 +25,25 @@ export default function MainPage() {
             as well as Adroid applications using Java.
             </div>
         </div>
-        <div className='text-5xl sm:text-6xl md:text-7xl 
-            font-bold text-center mt-20'>
-            Tech Stack
-        </div>
         </DelayedDisplayComponent>
-        <div className='grid xl:grid-cols-2 xl:gap-x-40 gap-20 mt-12'>
+        <div className='flex flex-col gap-16 mt-24'>
             {TECHNOLOGIES.map(({section_name, items}, index) =>
             <DelayedDisplayComponent key={index}>
                 <div className='text-3xl sm:text-4xl md:text-5xl 
-                    font-semibold text-center mb-10'>
+                    font-semibold text-center mb-10 kode-mono'>
                 {section_name}
                 </div>
-                <div className='flex mt-5 gap-8 sm:gap-8 lg:gap-14 justify-around flex-wrap'>
+                <div className='flex mt-5 gap-4 sm:gap-6 justify-around flex-wrap'>
                     {items.map(({name, link}) => 
                     <div className='w-min flex flex-col 
                         drop-shadow-[0_35px_35px_rgba(0,0,0,0.4)]
                         justify-between items-center gap-3'>
-                        <div className='w-max h-20 sm:h-24 md:h-28'>
+                        <div className='w-max h-16 sm:h-20 xl:h-24'>
                             <img className='h-full opacity-70 hover:opacity-100
                                 duration-200 p-1
                                 hover:p-0 ' src={link}/>
                         </div>
-                        <p className='text-center font-semibold'>{name}</p>
+                        <p className='text-center text-base font-semibold kode-mono'>{name}</p>
                     </div>
                     )}
                 </div>

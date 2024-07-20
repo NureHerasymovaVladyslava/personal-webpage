@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
         </div>
         <div className='flex flex-col text-end justify-evenly'>
-            <div className='font-thin text-3xl sm:text-4xl md:text-5xl'>
+            <div className='font-extralight text-3xl sm:text-4xl md:text-5xl'>
                 Vladyslava
                 <br />
                 Herasymova
