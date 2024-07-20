@@ -1,9 +1,11 @@
 import React from 'react'
+import DelayedDisplayComponent from './DelayedDisplayComponent'
 
 export default function About() {
   return (
     <div className='flex flex-col items-center
       px-10 sm:px-16 lg:px-28 gap-10 py-16'>
+        <DelayedDisplayComponent>
         <div className='flex flex-col gap-3'>
           <div className='flex justify-between items-center
             w-full gap-10'>
@@ -38,10 +40,14 @@ export default function About() {
               as well as Adroid applications using Java.
           </div>  
         </div>
-      <div className='text-3xl sm:text-4xl md:text-5xl font-light'>
-        Let me tell you a little bit about myself
-      </div>
+        </DelayedDisplayComponent>
+        <DelayedDisplayComponent>
+          <div className='text-3xl sm:text-4xl md:text-5xl font-light'>
+            Let me tell you a little bit about myself
+          </div>
+        </DelayedDisplayComponent>
       <div className='flex flex-col gap-6 w-full'>
+        <DelayedDisplayComponent>
         <div className='flex flex-col gap-2 items-start'>
           <div className='text-2xl sm:text-3xl 
             md:text-4xl font-bold'>
@@ -66,6 +72,8 @@ export default function About() {
             other students under the mentourship of our tutors.
           </div>
         </div>
+        </DelayedDisplayComponent>
+        <DelayedDisplayComponent>
         <div className='flex flex-col gap-2 items-start'>
           <div className='text-2xl sm:text-3xl 
             md:text-4xl font-bold'>
@@ -76,6 +84,8 @@ export default function About() {
             open for relocation.
           </div>
         </div>
+        </DelayedDisplayComponent>
+        <DelayedDisplayComponent>
         <div className='flex flex-col gap-2 items-start'>
           <div className='text-2xl sm:text-3xl 
             md:text-4xl font-bold'>
@@ -86,10 +96,12 @@ export default function About() {
             in English (B2-C1). I am also currently learning Spanish.
           </div>
         </div>
+        </DelayedDisplayComponent>
+        <DelayedDisplayComponent>
         <div className='flex flex-col gap-2 items-start'>
           <div className='text-2xl sm:text-3xl 
             md:text-4xl font-bold'>
-            Strength
+            Strengths
           </div>
           <ul className='text-lg sm:text-xl md:text-2xl 
             list-disc pl-10'>
@@ -110,6 +122,8 @@ export default function About() {
             </li>
           </ul>
         </div>
+        </DelayedDisplayComponent>
+        <DelayedDisplayComponent>
         <div className='flex flex-col gap-2 items-start'>
           <div className='text-2xl sm:text-3xl 
             md:text-4xl font-bold'>
@@ -125,6 +139,7 @@ export default function About() {
             </li>
           </ul>
         </div>
+        </DelayedDisplayComponent>
       </div>
     </div>
   )

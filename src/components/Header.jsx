@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <nav className='flex justify-between items-center px-5 pt-2 pb-5 
-        sm:px-7 sm:py-3 text-slate-800 backdrop-blur-sm
+    <nav className='flex justify-between items-center px-6 pt-2 pb-5 
+        sm:px-8 sm:py-3 md:px-10 lg:px-12 text-slate-800 backdrop-blur-sm
         text-base sm:text-lg md:text-xl sticky top-0 z-20'>
         <a className='hover:text-slate-600 duration-200
                 transition-all ease-in-out text-lg 
