@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className='flex justify-between px-6 sm:px-10 md:px-16 pb-5 gap-5 mt-16'>
-        <div className='flex flex-col gap-3'>
+    <div className='flex flex-col xs:flex-row justify-between px-6 sm:px-10 md:px-16 pb-5 gap-5 mt-16'>
+        <div className='flex flex-col gap-3 flex-1'>
             <div className='text-2xl font-semibold'>
                 Contact me:
             </div>
@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div className='flex flex-col text-end justify-evenly'>
+        <div className='flex flex-col xs:text-end justify-evenly'>
             <div className='font-extralight text-3xl sm:text-4xl md:text-5xl'>
                 Vladyslava
                 <br />
