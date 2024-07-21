@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import DelayedDisplayComponent from './DelayedDisplayComponent'
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'About'
+  }, [])
   return (
     <div className='flex flex-col items-center
       px-10 sm:px-16 lg:px-28 gap-10 mt-16'>

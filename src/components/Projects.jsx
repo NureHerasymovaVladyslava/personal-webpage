@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import DelayedDisplayComponent from './DelayedDisplayComponent'
 import ImageGallery from './ImageGallery'
 import {PROJECTS} from '../utils/data'
 
 export default function Projects() {
+  useEffect(() => {
+    document.title = 'Projects'
+  }, [])
+
   return (
     <div className='flex flex-col mx-16 sm:mx-24 md:mx-32 mt-20'>
       <DelayedDisplayComponent>
