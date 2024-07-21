@@ -21,8 +21,8 @@ export default function MainPage() {
             </div>
             <div className='text-lg sm:text-xl'>
             I specialize in designing and developing web applications, 
-            mostly with the help of Asp.Net Core MVC and ReactJS, 
-            as well as Adroid applications using Java.
+            mostly with the help of ASP.NET Core MVC and ReactJS, 
+            as well as Android applications using Java.
             </div>
         </div>
         </DelayedDisplayComponent>

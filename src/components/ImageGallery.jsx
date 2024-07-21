@@ -31,14 +31,14 @@ export default function ImageGallery(props) {
           src={url} key={index} />)}
       </div>
       <button className='absolute top-0 bottom-0 left-0 px-2 z-10 
-        bg-gray-700 bg-opacity-50 text-xl' 
+        bg-black bg-opacity-50 text-xl' 
         onClick={showPrevImage}>
-        <i class="fa-solid fa-chevron-left"></i>
+        <i class="fa-solid fa-chevron-left text-white"></i>
       </button>
       <button className='absolute top-0 bottom-0 right-0 px-2 z-10 
-        bg-gray-700 bg-opacity-50 text-xl' 
+        bg-black bg-opacity-50 text-xl' 
         onClick={showNextImage}>
-        <i class="fa-solid fa-chevron-right"></i>
+        <i class="fa-solid fa-chevron-right text-white"></i>
         </button>
     </div>
   )

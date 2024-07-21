@@ -96,14 +96,16 @@ export const PROJECTS = [
             '../projects/pr-2_p-3.png'
         ],
         role: 'Full Stack Developer',
-        comment: `During my second year of university and as part of my curriculum, 
-        I took part in the development and deployment of web and mobile applications 
-        for online auction organization. The development team consisted of six people.`,
+        comment: `During my second year of university and as part 
+        of my curriculum, I took part in the development and 
+        deployment of web and mobile applications for online 
+        auction organization. The development team consisted of 
+        six people.`,
         technologies: [
             {
                 part_name: 'Web',
                 main: [
-                    'Asp.Net Core MVC',
+                    'ASP.NET Core MVC',
                     'Entity Framework Core',
                     'C#',
                     'HTML',
@@ -122,22 +124,23 @@ export const PROJECTS = [
                     'Java'
                 ],
                 aditional: [
-                    'Retfrofit',
+                    'Retrofit',
                     'Glide',
                     'Play Services Auth'
                 ]
             }
         ],
-        about: `Masterpiece Market is an online platform for artist, art entusiasts and collectors, 
-        on which sharing and exchanging of art is implemented in a simple and understandable way`,
+        about: `Masterpiece Market is an online platform for artists, 
+        art enthusiasts, and collectors, where sharing and exchanging 
+        art is implemented in a simple and understandable way.`,
         features: [
             {
                 part_name: 'Web',
                 f_list: [
-                    'Authorisation and Autentication with internal and/or Google accounts',
+                    'Authorization and Authentication with internal and/or Google accounts',
                     'Account management',
                     'Artwork publication and management',
-                    'Adding artworks to "Favourites"',
+                    'Adding artworks to "Favorites"',
                     'Artworks discussion in comments',
                     'Subscription to favourite artists',
                     'Personalized gallery',
@@ -152,11 +155,11 @@ export const PROJECTS = [
                     'Starting an auction for one of the artworks in user\'s possession',
                     'Placing bids',
                     'Passing ownership rights of an artwork to the winner of the respective auction',
-                    'Notifications about auctions that involve favourite auctions and artist amoung user\'s subscriptions'
+                    'Notifications about auctions that involve favourite auctions and artist among user\'s subscriptions'
                 ]
             }
         ],
-        status: 'Disabled (originaly deployed with Azure App Services)'
+        status: 'Disabled (originally deployed with Azure App Services)'
     },
     {
         name: 'UkrLearn',
@@ -170,13 +173,14 @@ export const PROJECTS = [
             '../projects/pr-3_p-5.png'
         ],
         role: 'Full Stack Developer',
-        comment: `During my second year of university and as part of my curriculum, 
-        I developed a social-media like web application for ukrainian Higher Education Institutes.`,
+        comment: `During my second year of university and as part 
+        of my curriculum, I developed a social-media-like web 
+        application for Ukrainian Higher Education Institutes`,
         technologies: [
             {
                 part_name: 'Web',
                 main: [
-                    'Asp.Net Core MVC',
+                    'ASP.NET Core MVC',
                     'Entity Framework Core',
                     'C#',
                     'HTML',
@@ -189,21 +193,23 @@ export const PROJECTS = [
                 ]
             }
         ],
-        about: `UkrLearn is an online platform for ukrainian Higher Education Institutes that provides 
-        students and universities with easy and understandable means of comunication, which can make both the process of
-        enrollment and education much easier and less stressful.`,
+        about: `UkrLearn is an online platform for Ukrainian Higher 
+        Education Institutes that provides students and universities 
+        with easy and understandable means of communication, making both 
+        the enrollment and education processes much easier 
+        and less stressful.`,
         features: [
             {
                 part_name: 'Web',
                 f_list: [
-                    'Authorisation and Autentication with internal and/or Google accounts',
+                    'Authorization and Authentication with internal and/or Google accounts',
                     'Account management',
                     'Internal notifications',
-                    'Moderating of universities (publicaton and management of posts, management of information about university)',
+                    'Moderating of universities (publication and management of posts, management of information about the university)',
                     'Discussion of posts via comments',
                     'Marking posts with likes',
                     'Saving posts for easy access later',
-                    'Built-in proforientation test with following recomendations',
+                    'Built-in career orientation test with recommendations',
                     'Subscription to universities and post categories',
                     'Email notifications about new posts based on user\'s subscriptions',
                     'Statistics'
@@ -224,12 +230,12 @@ export const PROJECTS = [
         role: 'Full Stack Developer',
         comment: `Learning .Net outside of university, I took part in the development 
         of a web application for distributed learning. The development team consisted of four people, 
-        the teamwork organization was conducted using Agile methodology.`,
+        and the teamwork organization was conducted using Agile methodology.`,
         technologies: [
             {
                 part_name: 'Web',
                 main: [
-                    'Asp.Net Core MVC',
+                    'ASP.NET Core MVC',
                     'Entity Framework Core',
                     'C#',
                     'HTML',
@@ -242,21 +248,23 @@ export const PROJECTS = [
                 ]
             }
         ],
-        about: `Course System is an online platform for distributed learning. It provides 
-        students and teachers with easy and understandable means of comunication, and work organisation.`,
+        about: `Course System is an online platform for 
+        distributed learning. It provides students and teachers 
+        with easy and understandable means of communication and 
+        work organization.`,
         features: [
             {
                 part_name: 'Web',
                 f_list: [
-                    'Authorisation and Autentication with internal and/or Google accounts',
+                    'Authorization and Authentication with internal and/or Google accounts',
                     'Account management',
                     'Inviting students to group (for teachers)',
                     'Creating groups inside courses (for teachers)',
                     'Adding and managing assignments (for teachers)',
-                    'Loading additional materials general, course, group and assignment wide (for teachers)',
-                    'Internal notifications about new assignment solutions sent by students (for teachers)',
-                    'Marking and commenting of students\' assignment solutions (for teachers)',
-                    'Loading assignment solutions in text or file forms (for students)',
+                    'Uploading additional materials for general, course, group, and assignment-wide use (for teachers)',
+                    'Internal notifications about new assignment submissions sent by students (for teachers)',
+                    'Marking and commenting on students\' assignment submissions (for teachers)',
+                    'Uploading assignment solutions in text or file forms (for students)',
                     'Internal notifications about assignment status changes (for students)',
                     'Discussion of assignments via chat',
                     'Account management'

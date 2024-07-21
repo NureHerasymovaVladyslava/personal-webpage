@@ -25,8 +25,8 @@ export default function About() {
               </div>
               <div className='hidden xl:block text-2xl'>
                 I specialize in designing and developing web applications, 
-                mostly with the help of Asp.Net Core MVC and ReactJS, 
-                as well as Adroid applications using Java.
+                mostly with the help of ASP.NET Core MVC and ReactJS, 
+                as well as Android applications using Java.
               </div>
             </div>
             <div className='max-w-60 sm:max-w-[30%]'>
@@ -35,13 +35,13 @@ export default function About() {
           </div>
           <div className='text-lg sm:text-xl md:text-2xl xl:hidden'>
               I specialize in designing and developing web applications, 
-              mostly with the help of Asp.Net Core MVC and ReactJS, 
-              as well as Adroid applications using Java.
+              mostly with the help of ASP.NET Core MVC and ReactJS, 
+              as well as Android applications using Java.
           </div>  
         </div>
         </DelayedDisplayComponent>
         <DelayedDisplayComponent>
-          <div className='text-3xl sm:text-4xl md:text-5xl font-light'>
+          <div className='text-3xl sm:text-4xl md:text-5xl font-light playfair-display'>
             Let me tell you a little bit about myself
           </div>
         </DelayedDisplayComponent>
@@ -55,20 +55,20 @@ export default function About() {
           <div className='text-lg sm:text-xl md:text-2xl'>
             As of right now, I am working towards my Bachelor’s degree in
             Software Engineering at Kharkiv National University of
-            Radioelectronics.
+            Radio Electronics.
           </div>
           <div className='text-lg sm:text-xl md:text-2xl'>
-            I enrolled in 2022 and will graduate in 2026.
+            I began my studies in 2022 and will complete my degree in 2026.
           </div>
           <div className='text-lg sm:text-xl md:text-2xl'>
-            Aside from that, I try to study outside of University 
-            as much as physicly possible.
+            I also try to study outside of university 
+            as much as possible. 
             <br />
-            As an example, I took an extensive course on .Net and web 
-            development in general during my first year at uni. 
+            For example, I took an extensive course on .Net and web 
+            development in general during my first year at university. 
             I learned a lot and took part in the development of 
             a web application for distributed learning in a team with 
-            other students under the mentourship of our tutors.
+            other students under the mentorship of our tutors.
           </div>
         </div>
         </DelayedDisplayComponent>
@@ -88,11 +88,11 @@ export default function About() {
         <div className='flex flex-col gap-2 items-start'>
           <div className='text-2xl sm:text-3xl 
             md:text-4xl font-bold'>
-            Language
+            Languages
           </div>
           <div className='text-lg sm:text-xl md:text-2xl'>
             I am a native speaker of Ukrainian and am proficient 
-            in English (B2-C1). I am also currently learning Spanish.
+            in English (B2-C1).
           </div>
         </div>
         </DelayedDisplayComponent>
@@ -105,19 +105,19 @@ export default function About() {
           <ul className='text-lg sm:text-xl md:text-2xl 
             list-disc pl-10'>
             <li>
-              Responsibile
+              Responsible and reliable in completing tasks and meeting deadlines
             </li>
             <li>
-              Patient
+              Patient, particularly in problem-solving and teamwork
             </li>
             <li>
-              Effective team player
+              Effective team player with strong collaboration skills
             </li>
             <li>
-              Quick learner
+              Quick learner, adaptable to new tools and technologies
             </li>
             <li>
-              Good time management and prioritization skills
+              Excellent time management and prioritization skills
             </li>
           </ul>
         </div>
@@ -131,7 +131,7 @@ export default function About() {
           <ul className='text-lg sm:text-xl md:text-2xl 
             list-disc pl-10'>
             <li>
-              Sometimes fixate on solving a problem and loose track of time
+              Sometimes fixate on solving a problem and lose track of time
             </li>
             <li>
               Have some troubles asking for help

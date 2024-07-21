@@ -16,9 +16,9 @@ export default function Projects() {
           Projects
         </div>
         <div className='text-lg sm:text-xl md:text-2xl mt-5'>
-          Aside from my personal webpage that you are currently browsing 
-          and that I developed with the use of ReactJS and Tailwind CSS, 
-          in the past years I worked on several other projects.
+          Aside from my personal webpage that you are currently 
+          browsing, which I developed using ReactJS and Tailwind CSS, 
+          I have worked on several other projects in the past few years.
         </div>
       </DelayedDisplayComponent>
       <DelayedDisplayComponent>
@@ -57,7 +57,7 @@ export default function Projects() {
         <DelayedDisplayComponent>
           <div className={'flex gap-16 items-stretch h-max mt-5 ' + 
             (index % 2 === 1 && 'xl:flex-row-reverse')}>
-              <div className={'flex flex-col flex-1 gap-5 justify-evenly ' + 
+              <div className={'flex flex-col flex-1 gap-10 justify-evenly ' + 
                 (index % 2 === 1 && 'xl:text-end')}>
                 <div className='flex flex-col gap-2'>
                   <div className='text-2xl sm:text-3xl font-bold'>
@@ -89,7 +89,7 @@ export default function Projects() {
               </div>
           </div>
         </DelayedDisplayComponent>
-        <div className='flex flex-col flex-1 gap-10 mt-5'>
+        <div className='flex flex-col flex-1 gap-10 mt-10'>
         <DelayedDisplayComponent>
             <div className='flex flex-col gap-2'>
               <div className='text-2xl sm:text-3xl font-bold'>
